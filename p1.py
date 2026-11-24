@@ -1,8 +1,12 @@
-a = 123321
-print ("Palindrome" if str(a)== str(a)[::-1] else "not palindrome")
-
 b = 456654
-if str(b) == str(b):
+if str(b) == str(b)[::-1]:
 	print (b, "is palindrome")
 else:
 	print (b, "isnt palindrome")
+
+a = 12
+if a%2 == 0:
+	print (a, "is even")
+else:
+	print (a, "is odd")
+
